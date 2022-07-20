@@ -1,0 +1,46 @@
+{
+	"Arrow Function": {
+		"prefix": "arrowFun",
+		"body": "const myFun = () => {\n\t$1\n}",
+		"description": "This is for creating arrow function"
+	},
+	"Normal Function": {
+		"prefix": "normalFun",
+		"body": "function myFun(){\n\t$1\n}",
+		"description": "This is for creating normal function"
+	},
+	"For Loop": {
+		"prefix": "for",
+		"body": "for(let i=0; i<myArray.length; i++){\n\t$1\n}",
+		"description": "This is for creating for loop"
+	},
+	"If Statement": {
+		"prefix": "if",
+		"body": "if($1){\n\t$2\n}",
+		"description": "This is for creating if statement"
+	},
+	"Get Element By Id": {
+		"prefix": "getbyid",
+		"body": "document.getElementById(\"$1\")",
+	},
+	"Get Element By Class": {
+		"prefix": "getbyclass",
+		"body": "document.querySelector(\".$1\")",
+	},
+	"Get Elements By Class": {
+		"prefix": "getallbyclass",
+		"body": "document.getElementsByClassName(\"$1\")",
+	},
+	"Get Data From LocalStorage": {
+		"prefix": "getfromlocal",
+		"body": "localStorage.getItem(\"$1\")",
+	},
+	"Set Data To LocalStorage": {
+		"prefix": "settolocal",
+		"body": "localStorage.setItem(\"$1\", $2)",
+	},
+	"Console.log": {
+		"prefix": "log",
+		"body": "console.log($1)",
+	},
+}

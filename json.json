@@ -1,0 +1,7 @@
+{
+	"Object": {
+		"prefix": "object",
+		"body": "{\"id\":1, \"name\": \"Ahmed Saber\", \"job\": \"Frontend Web Developer\"}",
+		"description": "This is for starting a new json object"
+	},
+}

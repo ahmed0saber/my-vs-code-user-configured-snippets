@@ -1,0 +1,12 @@
+{
+	"Begin the html file": {
+		"prefix": "begin",
+		"body": "<!DOCTYPE html>\n<html lang='en'>\n<head>\n\t<meta charset='UTF-8'>\n\t<meta http-equiv='X-UA-Compatible' content='IE=edge'>\n\t<meta name='viewport' content='width=device-width, initial-scale=1.0'>\n\t<title>Document</title>\n\t<link rel='stylesheet' href='./style.css'>\n</head>\n<body>\n\t\n</body>\n<script src='./script.js'></script>\n</html>",
+		"description": "This is for starting a new html document"
+	},
+	"Input": {
+		"prefix": "input",
+		"body": "<input type='text' placeholder='Enter something' id='myInput'/>",
+		"description": "Default attributes of inputs"
+	},
+}

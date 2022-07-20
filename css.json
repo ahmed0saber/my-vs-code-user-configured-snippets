@@ -1,0 +1,52 @@
+{
+	"Begin the css file": {
+		"prefix": "begin",
+		"body": "*{\n\tmargin: 0;\n\tpadding: 0;\n\tbox-sizing: border-box;\n\tposition: relative;\n\tborder: none;\n\toutline: none;\n\tfont-family: sans-serif;\n}",
+		"description": "This is for all common properties in css"
+	},
+	"Flexbox": {
+		"prefix": "flexbox",
+		"body": "display: flex;\nflex-direction: row;\njustify-content: center;\nalign-items: center;\ngap: 10px;\nflex-wrap: wrap;",
+		"description": "For flexbox properties"
+	},
+	"Debug": {
+		"prefix": "debug",
+		"body": "*{border:1px solid #000}",
+		"description": "To check dimentions of all elements"
+	},
+	"Button": {
+		"prefix": "btn",
+		"body": "padding: 8px 24px;\ncolor: #000;\nbackground-color: #fff;\nborder: 1px solid #000;\nborder-radius: 4px;",
+		"description": "Default properties of buttons"
+	},
+	"Input": {
+		"prefix": "input",
+		"body": "padding: 4px 2px;\ncolor: #000;\nbackground-color: #fff;\nborder: 1px solid #000;\nborder-radius: 4px;",
+		"description": "Default properties of inputs"
+	},
+	"Fixed": {
+		"prefix": "fixed",
+		"body": "position: fixed;\ntop: 0;\nleft: 0;\nz-index: 1;",
+		"description": "To apply fixed positioning"
+	},
+	"Sticky": {
+		"prefix": "sticky",
+		"body": "position: sticky;\ntop: 0;\nleft: 0;\nz-index: 1;",
+		"description": "To apply sticky positioning"
+	},
+	"Absolute": {
+		"prefix": "absolute",
+		"body": "position: absolute;\ntop: 0;\nleft: 0;\nz-index: 1;",
+		"description": "To apply absolute positioning"
+	},
+	"Relative": {
+		"prefix": "relative",
+		"body": "position: relative;\ntop: 0;\nleft: 0;\nz-index: 1;",
+		"description": "To apply relative positioning"
+	},
+	"Important": {
+		"prefix": "imp",
+		"body": "!important",
+		"description": "To set as important"
+	},
+}

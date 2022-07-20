@@ -1,0 +1,10 @@
+{
+	"React useState": {
+		"prefix": "rus",
+		"body": "const [$1, set$2] = useState($3)",
+	},
+	"React Map An Array": {
+		"prefix": "map",
+		"body": "values.map((value, index) => <Card data={value} key={index} />)",
+	},
+}
